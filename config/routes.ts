@@ -31,6 +31,11 @@
 		hideInMenu: true,
 	},
 	{
+		path: '/oan-tu-ti',
+		name: 'Oẳn Tù Tì',
+		component: './TienIch/OanTuTi',
+	},
+	{
 		path: '/random-user',
 		name: 'RandomUser',
 		component: './RandomUser',
