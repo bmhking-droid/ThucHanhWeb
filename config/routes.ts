@@ -1,4 +1,4 @@
-﻿export default [
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -50,6 +50,100 @@
 	// 		},
 	// 	],
 	// },
+
+	// bài tập trên lớp
+	{
+		path: '/todo-list',
+		name: 'TodoList',
+		component: './todoList',
+		icon: 'UnorderedListOutlined',
+	},
+	{
+		path: '/game-snn',
+		name: 'GameSNN',
+		component: './gameSNN',
+		icon: 'SmileOutlined',
+	},
+	// QUẢN LÝ NHÂN VIÊN, DỊCH VỤ, LỊCH HẸN - TH3
+	{
+		name: 'Quản Lý -TH3',
+		path: '/quan-ly',
+		icon: 'TeamOutlined',
+		routes: [
+			{
+				name: 'NhanVien',
+				path: 'nhan-vien',
+				component: './nhanvien',
+				icon: 'UserOutlined',
+			},
+			{
+				name: 'DichVu',
+				path: 'dich-vu',
+				component: './dichvu',
+				icon: 'AppstoreOutlined',
+			},
+			{
+				name: 'LichHen',
+				path: 'lich-hen',
+				component: './lichhen',
+				icon: 'CalendarOutlined',
+			},
+			{
+				name: 'DanhGia',
+				path: 'danh-gia',
+				component: './DanhGia',
+				icon: 'StarOutlined',
+			},
+			{
+				name: 'ThongKe',
+				path: 'thong-ke',
+				component: './ThongKe',
+				icon: 'BarChartOutlined',
+			},
+		],
+	},
+	// QUẢN LÝ SỔ VĂN BẰNG TỐT NGHIỆP - TH4
+	{
+		name: 'Quản lý văn bằng',
+		path: '/quan-ly-van-bang',
+		icon: 'BookOutlined',
+		routes: [
+			{
+				name: 'Sổ văn bằng',
+				path: 'so-van-bang',
+				component: './QuanLySoVanBang',
+				icon: 'ProfileOutlined',
+			},
+			{
+				name: 'Quyết định tốt nghiệp',
+				path: 'quyet-dinh-tot-nghiep',
+				component: './quyetdinhtotnghiep',
+				icon: 'FileTextOutlined',
+			},
+		],
+	},
+	
+	// QUẢN LÝ CÂU LẠC BỘ -TH5
+	{
+		name: 'Quản lý Câu Lạc Bộ',
+		path: '/quan-ly-clb',
+		icon: 'TeamOutlined',
+		routes: [
+			{
+				name: 'Danh sách CLB',
+				path: 'danh-sach',
+				component: './CauLacBo',
+				icon: 'AppstoreOutlined',
+			},
+			{
+				name: 'Đơn đăng ký',
+				path: 'don-dang-ky',
+				component: './DonDangKy',
+				icon: 'FormOutlined',
+			},
+			
+		],
+	},
 
 	{
 		path: '/notification',
