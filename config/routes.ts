@@ -31,16 +31,6 @@
 		hideInMenu: true,
 	},
 	{
-		path: '/ngan-hang-cau-hoi',
-		name: 'Ngân hàng câu hỏi',
-		component: './TienIch/NganHangCauHoi',
-	},
-	{
-		path: '/oan-tu-ti',
-		name: 'Oẳn Tù Tì',
-		component: './TienIch/OanTuTi',
-	},
-	{
 		path: '/random-user',
 		name: 'RandomUser',
 		component: './RandomUser',
